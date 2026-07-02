@@ -1,7 +1,7 @@
 :root {
   --accent: #81A88D;
   --accent-strong: #5f846a;
-  --accent-bright: #159734;
+  --accent-hover: #02401B;
   --accent-contrast: #DA2536;
   --menu: #BBC3C3;
   --menu-active: #DFEAE9;
@@ -39,7 +39,7 @@ a {
 
 a:hover,
 a:focus {
-  color: var(--accent-bright);
+  color: var(--accent-hover);
   border-bottom-color: currentColor;
 }
 
@@ -131,7 +131,7 @@ p {
 
 .profile-links a:hover,
 .profile-links a:focus {
-  color: var(--accent-bright);
+  color: var(--accent-hover);
 }
 
 .content {
