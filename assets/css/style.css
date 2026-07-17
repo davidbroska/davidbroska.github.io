@@ -165,7 +165,7 @@ p {
 }
 
 .year {
-  color: var(--accent-strong);
+  color: var(--ink);
   font-weight: 700;
 }
 
